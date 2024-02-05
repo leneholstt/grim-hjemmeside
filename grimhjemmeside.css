@@ -1,21 +1,28 @@
-body{
-
+body {
     background-color: brown;
+    margin: 0; 
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;  
 }
-img{
+
+img {
     border-radius: 20%;
+    width: 100%; 
+    height: auto; 
 }
 
-
-/* Media query for skærme, der er mindre end eller lig med 768px i bredden */
+/* Media query for skærme, der er mindre end eller lig med 400px i bredden */
 @media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.2em; /* Ændre overskriftsstørrelsen for små skærme */
+    }
+
     img {
-        max-width: 80%; /* Begræns billedets maksimale bredde til 80% af forælderens bredde */
+        border-radius: 5%; /* Ændre afrundningseffekten for små skærme */
     }
 }
 
+/* Media query for skærme
