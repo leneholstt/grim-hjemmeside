@@ -11,16 +11,11 @@ img{
     border-radius: 20%;
 }
 
+
 /* Media query for skærme, der er mindre end eller lig med 768px i bredden */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
     img {
-        border-radius: 10%; /* Ændre afrundningseffekten for mindre skærme */
+        max-width: 80%; /* Begræns billedets maksimale bredde til 80% af forælderens bredde */
     }
 }
 
-/* Media query for skærme, der er mindst 1200px i bredden */
-@media only screen and (min-width: 1200px) {
-    img {
-        border-radius: 30%; /* Ændre afrundningseffekten for større skærme */
-    }
-}
