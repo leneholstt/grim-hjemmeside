@@ -3,6 +3,7 @@ body{
     background-color: brown;
 }
 
-.h1{
-    font-family: 'Times New Roman', Times, serif;
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;  
 }
