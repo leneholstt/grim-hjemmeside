@@ -10,3 +10,17 @@ h1{
 img{
     border-radius: 20%;
 }
+
+/* Media query for skærme, der er mindre end eller lig med 768px i bredden */
+@media only screen and (max-width: 768px) {
+    img {
+        border-radius: 10%; /* Ændre afrundningseffekten for mindre skærme */
+    }
+}
+
+/* Media query for skærme, der er mindst 1200px i bredden */
+@media only screen and (min-width: 1200px) {
+    img {
+        border-radius: 30%; /* Ændre afrundningseffekten for større skærme */
+    }
+}
